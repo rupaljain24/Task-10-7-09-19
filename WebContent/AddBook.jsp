@@ -32,7 +32,7 @@
 <td colspan="2"><input type="submit" value="Insert" ></td>
 </tr>
 </table>
-
+<hr>
 </form>
 </body>
 </html>

@@ -32,11 +32,18 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 			ResultSet rs = (ResultSet) st.executeQuery(q);
 			PrintWriter out = response.getWriter();
 			while (rs.next()) {
-
-			out.println(rs.getInt(1));
-			out.println(rs.getString(2));
-			out.println(rs.getString(3));
-			out.println(rs.getString(4));
+				out.println("<html>");
+				out.println("<body>");
+				out.println("<pre>");
+				out.println("Book Id:"); 		out.println(rs.getInt(1));  out.println("<br>");
+				out.println("Book Name:");		out.println(rs.getString(2));	out.println("<br>");
+				out.println("Book Author:"); 	out.println(rs.getString(3));  out.println("<br>");
+				out.println("Book Genre:");		out.println(rs.getString(4)); out.println("<br>");
+				out.println("</pre>");
+				out.println("</body>");
+			out.println("</html>");
+			
+			
 			}
 	
 			con.close();
