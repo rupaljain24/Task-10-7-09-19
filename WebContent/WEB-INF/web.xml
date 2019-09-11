@@ -9,21 +9,16 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  
-  
-     <servlet>
-        <servlet-name>VerifyUser</servlet-name>
-        <servlet-class>VerifyUser</servlet-class>
-        <init-param>
-            <param-name>username</param-name>
-            <param-value>admin</param-value>
-        </init-param>
-        <init-param>
-            <param-name>password</param-name>
-            <param-value>indore</param-value>
-        </init-param>
-        
-    </servlet>
-    
-    
+  <servlet>
+    <servlet-name>VerifyUser</servlet-name>
+    <servlet-class>VerifyUser</servlet-class>
+    <init-param>
+      <param-name>username</param-name>
+      <param-value>admin</param-value>
+    </init-param>
+    <init-param>
+      <param-name>password</param-name>
+      <param-value>indore</param-value>
+    </init-param>
+  </servlet>
 </web-app>

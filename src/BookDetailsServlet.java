@@ -61,7 +61,7 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
 			out.println("</table>");
 		}
 		out.println("<hr>");
-		out.println("<a href=CartManager?code="+code+">Add-To-Cart</a><br>");
+		out.println("<a href=CartManager?code=" + code+ ">Add-To-Cart</a><br>");
 		out.println("<a href=SubjectPageServlet>Subject-Page</a><br>");
 		out.println("<a href=buyerpage.jsp>Buyer-Page</a><br>");
 		out.println("</body></html>");
