@@ -11,8 +11,10 @@ if(s==null)
 	<h3>DashBoard-For-<%= s %></h3>
 	<hr>
 	<pre>
-		<a href="SubjectPageServlet">Explore-Store</a>
-		<a href="">Search-Book</a>
+		<a href="SubjectPageCheck.jsp">Explore-Store</a>
+		<a href="ShowBooks.jsp">Show all books</a>
+		<a href="UpdateProfile.jsp">Update Profile</a>
+		<a href="SearchBook.jsp">Search-Book</a>
 		<a href="">View-Cart</a>
 		<a href="">Trace-Order</a>
 		<a href="">Logout</a>
